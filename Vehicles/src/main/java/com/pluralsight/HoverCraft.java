@@ -1,6 +1,6 @@
 package com.pluralsight;
 
-public class HoverCraft extends Transportation {
+public class HoverCraft extends Vehicles {
     private double hoverHeight;
 
 }

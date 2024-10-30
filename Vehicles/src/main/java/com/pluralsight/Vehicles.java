@@ -1,14 +1,23 @@
 package com.pluralsight;
 
-public class Transportation {
+public class Vehicles {
+    protected int cargoCapacity;
     protected String name;
     protected double speed;
-    protected int numOfSeats;
+    protected int numOfPassengers;
     protected int qualityOfVehicle;
     protected String color;
-    protected double range;
+    protected double fuelCapacity;
     protected boolean isElectric;
 
+
+    public int getCargoCapacity() {
+        return cargoCapacity;
+    }
+
+    public void setCargoCapacity(int cargoCapacity) {
+        this.cargoCapacity = cargoCapacity;
+    }
 
     public String getName() {
         return name;
@@ -26,12 +35,12 @@ public class Transportation {
         this.speed = speed;
     }
 
-    public int getNumOfSeats() {
-        return numOfSeats;
+    public int getNumOfPassengers() {
+        return numOfPassengers;
     }
 
-    public void setNumOfSeats(int numOfSeats) {
-        this.numOfSeats = numOfSeats;
+    public void setNumOfPassengers(int numOfPassengers) {
+        this.numOfPassengers = numOfPassengers;
     }
 
     public int getQualityOfVehicle() {
@@ -50,12 +59,12 @@ public class Transportation {
         this.color = color;
     }
 
-    public double getRange() {
-        return range;
+    public double getFuelCapacity() {
+        return fuelCapacity;
     }
 
-    public void setRange(double range) {
-        this.range = range;
+    public void setFuelCapacity(double fuelCapacity) {
+        this.fuelCapacity = fuelCapacity;
     }
 
     public boolean isElectric() {
